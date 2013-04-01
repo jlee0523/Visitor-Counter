@@ -8,3 +8,5 @@ file = open('num_visits.txt', 'r')
 visitor_num = int(file.readline())
 
 print visitor_num
+
+file.close()
